@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.iconos-rrss-header {
+  width: 30px;
+  margin: 10px 5px;
+}
+.logotipo {
+  width: 30px;
+  padding: 0 0;
+}
