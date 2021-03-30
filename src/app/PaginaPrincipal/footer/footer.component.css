@@ -1,21 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  color: #d9d9d9;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-footer {
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  background: #111;
-}
 
 .main-content {
   display: flex;
 }
+
+
 .main-content .box {
   flex-basis: 50%;
   padding: 10px 20px;
@@ -25,33 +13,10 @@ footer {
   font-weight: 600;
   text-transform: uppercase;
 }
-
 .box .content {
   margin: 20px 0 0 0;
   position: relative;
 }
-.left .content p {
-  text-align: justify;
-}
-/* 
-.content1 {
-  position: relative;
-  margin: 130px auto;
-  text-align: center;
-  padding: 0 20px;
-}
-.content1 .text {
-  font-size: 2.5rem;
-  font-weight: 600;
-  color: #202020;
-}
-.content1 .p {
-  font-size: 2.1875rem;
-  font-weight: 600;
-  color: #202020;
-}
-
-
 .box .content:before {
   position: absolute;
   content: "";
@@ -68,16 +33,19 @@ footer {
   background: #f12020;
   top: -10px;
 }
-
-.main-content .left .content .social {
+.left .content p {
+  text-align: justify;
+}
+.left .content .social {
   margin: 20px 0 0 0;
 }
-.main-content .left .content .social a {
+.left .content .social a {
   padding: 0 2px;
 }
-.main-content .left .content .social a span {
+.left .content .social a span {
   height: 40px;
   width: 40px;
+  color: #d9d9d9;
   background: #1a1a1a;
   line-height: 40px;
   text-align: center;
@@ -85,7 +53,7 @@ footer {
   border-radius: 5px;
   transition: 0.3s;
 }
-.main-content .left .content .social a span:hover {
+.left .content .social a span:hover {
   background: #f12020;
 }
 .center .content .fas {
@@ -121,6 +89,7 @@ footer {
 .right form input,
 .right form textarea {
   width: 100%;
+  color: white;
   font-size: 1.0625rem;
   background: #151515;
   padding-left: 10px;
@@ -141,6 +110,7 @@ footer {
   width: 100%;
   border: none;
   outline: none;
+  color: #d9d9d9;
   background: #f12020;
   font-size: 1.0625rem;
   font-weight: 500;
@@ -150,19 +120,20 @@ footer {
 .right form .btn button:hover {
   background: #000;
 }
-.bottom center {
+.bottom .center {
+  text-align: center;
   padding: 5px;
   font-size: 0.9375rem;
   background: #151515;
 }
-.bottom center span {
+.bottom .center span {
   color: #656565;
 }
-.bottom center a {
+.bottom .center a {
   color: #f12020;
   text-decoration: none;
 }
-.bottom center a:hover {
+.bottom .center a:hover {
   text-decoration: underline;
 }
 @media screen and (max-width: 900px) {
@@ -178,4 +149,3 @@ footer {
     margin: 5px 0;
   }
 }
- */
